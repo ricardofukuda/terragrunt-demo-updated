@@ -8,7 +8,7 @@ remote_state {
   }
 
   config = {
-    bucket = "fukuda-dataops-aws-data-pipelines"
+    bucket = "fukuda-dataops-terragrunt-demo"
 
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
